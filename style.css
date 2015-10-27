@@ -1,0 +1,57 @@
+#list1 {
+  height:100px;
+  width:50%;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+#list2 {
+  height:100px;
+  width:50%;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+.body {
+  height:100%;
+  width:100%;
+}
+
+.basic {
+  height:100%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  height:100px;
+  width:80%;
+  position:relative;
+  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second {
+  height:100px;
+  width:80%;
+  position:relative;
+  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.litem {
+  cursor: pointer;
+}
+.oval{
+background : red;
+padding :20px;
+	-moz-border-radius : 50px / 20px;
+	-webkit-border-radius :50px / 20px;
+	border-radius : 50px / 20 px;
+}
